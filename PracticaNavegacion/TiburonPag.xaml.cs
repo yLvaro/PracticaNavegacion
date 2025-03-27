@@ -9,12 +9,11 @@ public partial class TiburonPag : ContentPage
         InitializeComponent(); // Llama al método que inicializa los componentes visuales de la página.
     }
     /// <summary>
-    /// Esta función controla el evento que se activa al pulsar el botón "Detalles".
-    /// Cuando se pulsa el botón, crea un objeto "Animales", con la información de un tiburon
-    /// y lo envía a la página "Detalles".
+    /// Cuando se pulsa el botón "Detalles", se ejecuta este método. Este método crea un objeto de la clase "Animal" con información 
+    /// sobre un tiburón y navega a la página "Detalles" pasando el objeto "tiburón" con toda su información.
     /// </summary>
-    /// <param name="sender">Botón que activo el evento</param>
-    /// <param name="e">Datos del evento</param>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     public void DetallesBTN(object sender, EventArgs e)
     {
         //Creación de un objeto perteneciente a la clase "Animal", con información sobre un tiburon.
@@ -22,7 +21,7 @@ public partial class TiburonPag : ContentPage
         {
             Nombre = "tiburon", //Nombre del animal.
             Imagen = "tiburon.jpg", //Imagen del animal.
-            Texto = "La tiburon es un pez de mar. Es conocido por ser uno de los más comidos del mundo", //Descripción del animal.
+            Texto = "El tiburon es uno de los animales más temidos. Pese a esto, hay entre 80 y 100 ataques anuales en todo el mundo", //Descripción del animal.
         };
         //Navega a la página "Detalles", pasando el objeto "tiburon" con toda su información.
         Navigation.PushAsync(new Detalles(tiburon));

@@ -2,39 +2,34 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PracticaNavegacion.MainPage"
-             BackgroundColor="BlueViolet">
+             Title="Home"
+             BackgroundColor="Gray">
+    <VerticalStackLayout Padding="20" Spacing="20"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center"
+                         WidthRequest="1080"
+                         HeightRequest="1920">
+        <Label 
+            Text="Práctica Navegación"
+            FontSize="36"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25"
-            HeightRequest="400"
-            WidthRequest="1080">
-            <Image
-                Source="delfin.png"
-                HeightRequest="185"
-                Aspect="AspectFit"
-                />
+        <Label 
+            Text="Álvaro Martínez Alonso"
+            FontSize="20"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
 
-            <Label
-                Text="Práctica 05 DAM"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1"
-                FontAttributes="Bold"/>
-
-            <Label
-                Text="Navegación entre ventanas con traspaso de información."
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                />
-            <Label
-            Text="Para empezar, selecciona el menú, arriba a la izquierda."
-            Style="{StaticResource SubHeadline}"
-            SemanticProperties.HeadingLevel="Level2"
-            />
-
-
-        </VerticalStackLayout>
-    </ScrollView>
-
+        <Image 
+            Source="logoubu.jpg"
+            HeightRequest="200"
+            Aspect="AspectFit"
+            HorizontalOptions="Center"/>
+        <Label
+            Text="Bienvenido a la práctica 5 de Desarrollo de Aplicaciones Multiplataforma"
+            FontSize="16"
+            HorizontalTextAlignment="Center" />
+    </VerticalStackLayout>
 </ContentPage>

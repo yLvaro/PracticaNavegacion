@@ -9,6 +9,7 @@
 
     <FlyoutItem
         Title="Home"
+        Icon="homeicon.png"
         FlyoutDisplayOptions="AsSingleItem">
         <ShellContent
             Title="Home"
@@ -18,7 +19,7 @@
 
     <FlyoutItem
     Title="Merluza"
-        Icon="merluza.jpg"
+        Icon="merluzaicon.png"
     FlyoutDisplayOptions="AsSingleItem">
         <ShellContent
         Title="Merluza"
@@ -28,7 +29,7 @@
 
     <FlyoutItem
     Title="Delfín"
-        Icon="delfin.jpg"
+        Icon="dolphinicon.jpg"
     FlyoutDisplayOptions="AsSingleItem">
         <ShellContent
         Title="Delfín"
@@ -38,7 +39,7 @@
 
     <FlyoutItem
     Title="Orca"
-        Icon="orca.jpg"
+        Icon="orcaicon.jpg"
     FlyoutDisplayOptions="AsSingleItem">
         <ShellContent
         Title="Orca"
@@ -48,7 +49,7 @@
 
     <FlyoutItem
     Title="Tiburón"
-        Icon="tiburon.jpg"
+        Icon="sharkicon.jpg"
     FlyoutDisplayOptions="AsSingleItem">
         <ShellContent
         Title="Tiburón"

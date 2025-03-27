@@ -26,6 +26,6 @@
             FontSize="16"
             HorizontalTextAlignment="Center" />
 
-        <Button Text="Detalles" Clicked="DetallesBTN" x:Name="btn1" HorizontalOptions="Center" BackgroundColor="Chocolate" CommandParameter="1"></Button>
+        <Button Text="Detalles" Clicked="DetallesBTN" x:Name="btn1" HorizontalOptions="Center" BackgroundColor="Gold" CommandParameter="1"></Button>
     </VerticalStackLayout>
 </ContentPage>
