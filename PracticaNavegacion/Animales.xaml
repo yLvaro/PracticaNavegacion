@@ -1,14 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PracticaNavegacion.Animales"
+             x:Class="PracticaNavegacion.AnimalesDetalles"
              Title="Animales">
 
 
         <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
-            <Label Text="Aquí irán los detalles específicos del animal."
-                   FontSize="Medium" />
+            <Label  x:Name="Animales"
+                    Text="Aquí irán los detalles específicos del animal."
+                    FontSize="Medium" />
         </VerticalStackLayout>
     </ScrollView>
 

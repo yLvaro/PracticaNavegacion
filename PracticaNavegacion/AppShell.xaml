@@ -15,4 +15,44 @@
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="MainPage" />
     </FlyoutItem>
+
+    <FlyoutItem
+    Title="Merluza"
+        Icon="merluza.jpg"
+    FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent
+        Title="Merluza"
+        ContentTemplate="{DataTemplate local:Merluza}"
+        Route="Merluza" />
+    </FlyoutItem>
+
+    <FlyoutItem
+    Title="Delfín"
+        Icon="delfin.jpg"
+    FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent
+        Title="Delfín"
+        ContentTemplate="{DataTemplate local:Delfin}"
+        Route="Delfin" />
+    </FlyoutItem>
+
+    <FlyoutItem
+    Title="Orca"
+        Icon="orca.jpg"
+    FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent
+        Title="Orca"
+        ContentTemplate="{DataTemplate local:Orca}"
+        Route="Orca" />
+    </FlyoutItem>
+
+    <FlyoutItem
+    Title="Tiburón"
+        Icon="tiburon.jpg"
+    FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent
+        Title="Tiburón"
+        ContentTemplate="{DataTemplate local:Tiburon}"
+        Route="Tiburon" />
+    </FlyoutItem>
 </Shell>
