@@ -13,10 +13,5 @@ namespace PracticaNavegacion
         public string Texto { get; set; }
         public string Imagen { get; set; }
 
-
-        /*public virtual string Detalles()
-        {
-            return $"Este animal {this.Texto}";
-        }*/
     }
 }
