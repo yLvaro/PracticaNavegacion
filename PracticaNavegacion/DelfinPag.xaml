@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PracticaNavegacion.DelfinPag"
+             Title="Delfin"
+             BackgroundColor="Gray">
+    <VerticalStackLayout Padding="20" Spacing="20"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center"
+                         WidthRequest="1080"
+                         HeightRequest="1920">
+        <Label 
+            Text="Delfin"
+            FontSize="24"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image 
+            Source="delfin.jpg"
+            HeightRequest="200"
+            Aspect="AspectFit"
+            HorizontalOptions="Center"/>
+        <Label
+            Text="Si desea saber más sobre este animal, pulse el botón."
+            FontSize="16"
+            HorizontalTextAlignment="Center" />
+
+        <Button Text="Detalles" Clicked="DetallesBTN" x:Name="btn1" HorizontalOptions="Center" BackgroundColor="Gold" CommandParameter="1"></Button>
+    </VerticalStackLayout>
+</ContentPage>

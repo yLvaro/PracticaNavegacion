@@ -22,8 +22,8 @@
     FlyoutDisplayOptions="AsSingleItem">
         <ShellContent
         Title="Merluza"
-        ContentTemplate="{DataTemplate local:Merluza}"
-        Route="Merluza" />
+        ContentTemplate="{DataTemplate local:MerluzaPag}"
+        Route="MainPage" />
     </FlyoutItem>
 
     <FlyoutItem
@@ -32,8 +32,8 @@
     FlyoutDisplayOptions="AsSingleItem">
         <ShellContent
         Title="Delfín"
-        ContentTemplate="{DataTemplate local:Delfin}"
-        Route="Delfin" />
+        ContentTemplate="{DataTemplate local:DelfinPag}"
+        Route="MainPage" />
     </FlyoutItem>
 
     <FlyoutItem
@@ -42,8 +42,8 @@
     FlyoutDisplayOptions="AsSingleItem">
         <ShellContent
         Title="Orca"
-        ContentTemplate="{DataTemplate local:Orca}"
-        Route="Orca" />
+        ContentTemplate="{DataTemplate local:OrcaPag}"
+        Route="MainPage" />
     </FlyoutItem>
 
     <FlyoutItem
@@ -52,7 +52,7 @@
     FlyoutDisplayOptions="AsSingleItem">
         <ShellContent
         Title="Tiburón"
-        ContentTemplate="{DataTemplate local:Tiburon}"
-        Route="Tiburon" />
+        ContentTemplate="{DataTemplate local:TiburonPag}"
+        Route="MainPage" />
     </FlyoutItem>
 </Shell>

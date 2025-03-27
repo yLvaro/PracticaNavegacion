@@ -1,14 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PracticaNavegacion.Animales"
-             Title="Animales">
+             x:Class="PracticaNavegacion.MainPage"
+             BackgroundColor="BlueViolet">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            HeightRequest="400"
+            WidthRequest="1080">
+            <Image
+                Source="delfin.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                />
+
+            <Label
+                Text="Práctica 05 DAM"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1"
+                FontAttributes="Bold"/>
+
+            <Label
+                Text="Navegación entre ventanas con traspaso de información."
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                />
+            <Label
+            Text="Para empezar, selecciona el menú, arriba a la izquierda."
+            Style="{StaticResource SubHeadline}"
+            SemanticProperties.HeadingLevel="Level2"
+            />
 
 
-        <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="20">
-            <Label Text="Aquí irán los detalles específicos del animal."
-                   FontSize="Medium" />
         </VerticalStackLayout>
     </ScrollView>
 
